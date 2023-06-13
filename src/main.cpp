@@ -1,9 +1,10 @@
+// Veersion 1.0
 #include <Arduino.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
 
-#define DHTPIN 23     // Digital pin connected to the DHT sensor 
+#define DHTPIN 22     // Digital pin connected to the DHT sensor 
 #define DHTTYPE    DHT11     // DHT 11
 DHT_Unified dht(DHTPIN, DHTTYPE);
 
